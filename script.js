@@ -18,6 +18,3 @@ function parseText(text) {
     gameOutput.animate({top:5000}); 
   }
 }
-#bot-output {
-position: relative;
-}
