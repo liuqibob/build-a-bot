@@ -6,7 +6,7 @@ gameInput.keydown(function(keydownEvent) {
     parseText(gameInput.val()); 
     gameInput.val("");   
   }
-}
+})
 
 function parseText(text) {      
 if (text === "Good bye") {
@@ -17,6 +17,6 @@ if (text === "Good bye") {
       gameOutput.html("🤖️🤖️")
     } else if (text==="move"){
       gameOutput.animate({top:500}); 
-      }
+    }
 }
 
