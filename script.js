@@ -9,8 +9,8 @@ gameInput.keydown(function(keydownEvent) {
 })
 
 function parseText(text) {    
-    if (text === "hello") {
-      gameOutput.html("Hi there!");
+    if (text === "Good bye") {
+      gameOutput.html("Bye!");
     }
 }
 
