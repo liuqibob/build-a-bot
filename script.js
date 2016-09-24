@@ -17,5 +17,5 @@ if (text === "Good bye") {
     } else if (text === "robot come out!") {
       gameOutput.html("🤖️🤖️")
     } else if (text==="move"){
-      gameOutput.html(HTMLAudioElement)
+      gameOutput.animate({top:500});
 }
