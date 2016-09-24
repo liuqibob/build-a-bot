@@ -10,6 +10,7 @@ gameInput.keydown(function(keydownEvent) {
 function parseText(text) {      if (text === "Good bye") {
       gameOutput.html("Bye!");
     }else if (text==="name?") {
+      gameOutput.html("All powerful David Bot")
       
 }
 
