@@ -20,3 +20,4 @@ if (text === "Good bye") {
       gameOutput.animate({top:500}); 
       }
 }
+
