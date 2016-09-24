@@ -15,6 +15,9 @@ function parseText(text) {
   } else if (text === "robot come out!") {
     gameOutput.html("🤖️🤖️")
   } else if (text==="move"){
-    gameOutput.animate({top:500}); 
+    gameOutput.animate({top:5000}); 
   }
+}
+#bot-output {
+position: relative;
 }
