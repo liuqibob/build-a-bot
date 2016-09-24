@@ -13,7 +13,7 @@ function parseText(text) {
   }else if (text==="name?") {
     gameOutput.html("All powerful pizza Bot")
   } else if (text === "robot come out!") {
-    gameOutput.html("🤖️🤖️")
+    gameOutput.html("🤖️🤖️🤖️😄👌")
   } else if (text==="move"){
     gameOutput.animate({top:500}); 
   }
