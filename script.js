@@ -4,13 +4,12 @@ gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
   if (keydownEvent.keyCode == 13) {      
     parseText(gameInput.val()); 
-    gameInput.val("");
-  }  
+    gameInput.val(""); }  
 })
 
-function parseText(text) {    
-    if (text === "Good bye") {
+function parseText(text) {      if (text === "Good bye") {
       gameOutput.html("Bye!");
-    }
+    }else if (text==="name?") {
+      
 }
 
