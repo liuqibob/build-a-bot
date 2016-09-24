@@ -16,4 +16,4 @@ if (text === "Good bye") {
     }else if (text==="robot come out!") {
       gameOutput.html("🤖️🤖️🤖️🤖️")；
     } 
-}
+})
