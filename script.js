@@ -1,3 +1,4 @@
+
 var gameInput = $("#bot-input");
 var gameOutput  = $("#bot-output");
 gameInput.keydown(function(keydownEvent) {  
@@ -7,10 +8,11 @@ gameInput.keydown(function(keydownEvent) {
     gameInput.val(""); }  
 })
 
-function parseText(text) {      if (text === "Good bye") {
+function parseText(text) {      
+if (text === "Good bye") {
       gameOutput.html("Bye!");
     }else if (text==="name?") {
-      gameOutput.html("All powerful David Bot")
+      gameOutput.html("All powerful pizza Bot")
       
 }
-
+}
