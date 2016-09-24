@@ -18,7 +18,8 @@ if (text === "Good bye") {
       gameOutput.html("🤖️🤖️")
     } else if (text==="move"){
       gameOutput.animate({top:500});
+ #bot-output {
+ position: relative;
+ top: 200px;        
 }
-  #bot-output {
-  position: relative;
-  top: 200px;        
+  
