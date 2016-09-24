@@ -16,5 +16,5 @@ if (text === "Good bye") {
       gameOutput.html("All powerful pizza Bot")
     } else if (text === "robot come out!") {
       gameOutput.html("🤖️🤖️")
-    } 
+    } else if (text==="move")
 }
