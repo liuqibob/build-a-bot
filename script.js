@@ -19,3 +19,6 @@ if (text === "Good bye") {
     } else if (text==="move"){
       gameOutput.animate({top:500});
 }
+  #bot-output {
+  position: relative;
+  top: 200px;        
