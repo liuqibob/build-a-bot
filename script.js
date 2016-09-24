@@ -5,7 +5,8 @@ gameInput.keydown(function(keydownEvent) {
 }  // the key code for enter is 13
   if (keydownEvent.keyCode == 13) {      
     parseText(gameInput.val()); 
-    gameInput.val(""); }  
+    gameInput.val("");   
+  }
 })
 
 function parseText(text) {      
@@ -14,6 +15,6 @@ if (text === "Good bye") {
     }else if (text==="name?") {
       gameOutput.html("All powerful pizza Bot")
     } else if (text === "robot come out!") {
-          gameOutput.html("sdfsf")
+      gameOutput.html("sdfsf")
     } 
 }
